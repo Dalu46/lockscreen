@@ -1,0 +1,78 @@
+body {
+    display: flex;
+    justify-content: center;
+} 
+.home {
+    width: 27%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 15px;
+    background-color: black;
+}
+.pass {
+    margin-top: 60px;
+    color: white;
+}
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.lock {
+    margin-top: 18px;
+    width: 22px;
+    height: 30px;
+}
+.numbers {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 50px;
+}
+.password {
+    display: flex;
+    margin: 10px;
+}
+
+.circle {
+    width: 12px;
+    height: 12px;
+    margin: 6px;
+    background: transparent;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.but {
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 7px 9px 5px 9px;
+    color: white;
+    background-color: rgb(60, 55, 55);
+}
+
+.special {
+    visibility: hidden;
+}
+.but p {
+    font-size: 9px;
+    color: white;
+    margin: 0;
+}
+.foot {
+    width: 67%;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.zero {
+    visibility: hidden;
+}
